@@ -1,18 +1,28 @@
-## Getting Started
+## Tipos e Variáveis 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Tipos de dados
+No Java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como tipos primitivos (Primitive Types).
 
-## Folder Structure
+    Os oito tipos primitivos em java são: int, byte, short, long, float, double, boolean e char - esses tipos não são considerados objetos e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack)
 
-The workspace contains two folders by default, where:
+    Tabela de tipos primitivos e seus valores:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    |   Tipo  | Memória | Valor Mínimo               | Valor Máximo               |
+    |  :---:  | :---:   |    :---:                   |    :---:                   |
+    | byte    | 1 byte  | -128                       |  127                       |
+    | short   | 2 byte  | -32.768                    |  32.767                    |
+    | int     | 4 bytes | -2.147.483.648             |  2.147.483.647             |
+    | long    | 8bytes  | -9.223.372.036.854.775.808 |  9.223.372.036.854.775.807 |
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Os tipos primitivos, que podem conter partes fraciónarias podem ser representados por dois tipos:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    |   Tipo  | Memória | Valor Mínimo       | Valor Máximo     |  Precisão    |
+    |  :---:  | :---:   |    :---:           |    :---:         | :---:        |
+    | float   | 4 bytes | -3,4028E + 38      | 3,4028E + 38     | 6-7 dígitos  |
+    | double  | 8 bytes | -1,7976E + 308     | 1,7976E + 308    | 15 dígitos   |
+    
+     
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+fonte: <https://glysns.gitbook.io/java-basico/sintaxe/variaveis>
+
