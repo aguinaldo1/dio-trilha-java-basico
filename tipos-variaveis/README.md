@@ -4,7 +4,8 @@
 No Java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como tipos primitivos (Primitive Types).
 
     Os oito tipos primitivos em java são: int, byte, short, long, float, double, boolean e char - 
-    Esses tipos não são considerados objetos e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack)
+    Esses tipos não são considerados objetos e portanto representam valores brutos. 
+    Eles são armazenados diretamente na pilha de memória. (Memory stack)
 
     Tabela de tipos primitivos e seus valores:
 
@@ -26,6 +27,5 @@ Os tipos primitivos, que podem conter partes fraciónarias podem ser representad
 
 
 fonte: <https://glysns.gitbook.io/java-basico/sintaxe/variaveis>
-       (https://glysns.gitbook.io/java-basico/sintaxe/variaveis)
-       [https://glysns.gitbook.io/java-basico/sintaxe/variaveis]
+     
 
