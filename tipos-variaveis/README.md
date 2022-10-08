@@ -1,4 +1,4 @@
-## Tipos e Variáveis 
+## Tipos e Variáveis em Java
 
 ### Tipos de dados
 No Java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como tipos primitivos (Primitive Types).
